@@ -1,0 +1,18 @@
+:root {
+    --head-text: rgb(101, 215, 219);
+    --sidebar-text: rgb(63, 72, 107);
+    --header-color: rgb(42, 49, 75);
+}
+
+.main-header {
+    text-align: start;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: ;
+}
+
+.navbar a {
+    float: left;
+}
