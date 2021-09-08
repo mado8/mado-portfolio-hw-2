@@ -1,18 +1,98 @@
+/*import font style from Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+/*set styles used throughout the page*/
 :root {
-    --head-text: rgb(101, 215, 219);
-    --sidebar-text: rgb(63, 72, 107);
-    --header-color: rgb(42, 49, 75);
+    --light-blue: rgb(174, 224, 224);
+    --medium-blue: rgb(63, 72, 107);
+    --dark-gray: rgb(58, 61, 68);
+    --open-sans: 'Open Sans', sans-serif;
+}
+/*make box width and height correspond to actual values*/
+* {
+    box-sizing: border-box;
 }
 
-.main-header {
-    text-align: start;
+/*set to a uniform margin, padding, and font*/
+body {
+    margin: 0px;
+    padding: 0px;
+    color: var(--medium-blue);
+    font-family: var(--open-sans);
 }
-
-.navbar {
-    overflow: hidden;
-    background-color: ;
+/*style main header using color and position*/
+#page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 7px;
+    padding-bottom: 12px;
+    background-color: var(--dark-gray);
 }
-
-.navbar a {
-    float: left;
+/*changing color of text/background, positioning using box elements, and width within header's box*/
+#page-header h1 {
+    margin: 0px;
+    font-size: 275%;
+    padding-left: 30%;
+    width: fit-content;
+    padding-right: 10%;
+    color: var(--dark-gray);
+    background-color: var(--light-blue);
+}
+.container {
+    padding-right: 100px;
+}
+/* change navbar background color*/
+#navbar {
+    background-color: var(--dark-gray);
+}
+/*change positioning of navbar content in header, color of text, and set list style to have no bullet points*/
+#navbar ul{
+    list-style-type: none;
+    color: var(--light-blue);
+    
+}
+/**/
+#navbar li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    margin-left: 5px;
+    border-bottom: var(--light-blue) solid 4px;
+}
+/**/
+#navbar a:hover {
+    color: rgb(63, 110, 212)
+}
+/**/
+#navbar a {
+    font-size: 115%;
+    text-decoration: none;
+    color: var(--light-blue);
+    
+}
+/**/
+#image {
+    
+}
+/**/
+#image p {
+    padding: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 200%;
+    font-weight: 600;
+    color: var(--dark-gray);
+    background-color: var(--light-blue);
+    width: fit-content;
+    position: absolute;
+    top: 160px;
+    right: 65px;
+}
+/*making webpage responsive by changing variables to make the elements fit better under certain widths*/
+@media only screen and (max-width:750px) {
+    #page-header {
+        display: block;
+    }
 }
