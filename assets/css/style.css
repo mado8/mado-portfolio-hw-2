@@ -117,19 +117,15 @@ body {
     position: relative;
     flex-wrap: wrap;
 }
-/**/
+/*adds borders and background color to image and image texts*/
 .main-container div{
     border: 5px solid var(--light-blue);
     background-color: var(--light-blue);
     margin: 10px;
 }
-/**/
+/*sets image to not repeat on background and changes opacity of image*/
 .box  {
-    position: relative;
     background-repeat: no-repeat;
-    background-size: auto;
-    margin-left: 0px;
-    padding-top: 150px;
     opacity: 70%;
 }
 /*makes image more clear when hovered over*/ 
@@ -159,26 +155,20 @@ body {
     padding-right: 47%;
     background-image: url(../images/run-buddy.jpeg);
 }
-
+/*changes positioning of image text, padding, and color*/
 .text {
-    float: left;
     position: absolute;
-    margin: 0px;
     padding:10px;
     color: var(--dark-gray);
-    background-color: var(--light-blue);
 }
-
+/*changes list style type, space between items, uses border-bottom instead of underline, color, annd displays items inline*/
 #contact-me ul{
     list-style: none;
     text-decoration: none;
 }
-
 #contact-me li {
     display: inline;
-    
 }
-
 #contact-me ul a {
     margin: 50px;
     line-height: 20px;
