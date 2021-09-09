@@ -83,7 +83,7 @@ body {
     top: 220px;
     right: 65px;
 }
-/**/
+/*changes font size and positioning of aside text*/
 .side-headers {
     font-size: 300%;
     position: absolute;
@@ -106,7 +106,7 @@ body {
     top: -80px;
     left: -230px;
 }
-/**/
+/*changes distance of containers in main from side of page, adds border to left of elements, and positioning */
 .main-container {
     padding: 25px;
     padding-top: 0px;
@@ -153,7 +153,7 @@ body {
 }
 #box-4 {
     padding-right: 47%;
-    background-image: url(../images/pastel.jpg);
+    background-image: url(../images/pastel.jpeg);
 }
 #box-5 {
     padding-right: 47%;
