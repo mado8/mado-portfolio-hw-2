@@ -95,15 +95,15 @@ body {
 }
 /*changes position of aside text*/
 #am-header{
-    top: -40px;
+    top: -50px;
     left: -180px;
 }
 #w-header {
-    top: -40px;
+    top: -50px;
     left:-160px;
 }
 #c-header {
-    top: -80px;
+    top: -110px;
     left: -230px;
 }
 /*changes distance of containers in main from side of page, adds border to left of elements, and positioning */
@@ -123,9 +123,10 @@ body {
     background-color: var(--light-blue);
     margin: 10px;
 }
-/*sets image to not repeat on background and changes opacity of image*/
+/*sets image to not repeat, padding increases image height, and changes opacity of image*/
 .box  {
     background-repeat: no-repeat;
+    padding-top: 150px;
     opacity: 70%;
 }
 /*makes image more clear when hovered over*/ 
