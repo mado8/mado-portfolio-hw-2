@@ -10,8 +10,8 @@ This repository has a deployed application used to display a professional portfo
 
 ## Sample Image
 
-![sample-image](assets/images/webpage-1.jpg)
-![sample-image](assets/images/webpage-2.jpg)
+![sample-image](/Users/madelineadonley/bootcamp/mado-portfolio-hw-2/assets/images/webpage-1.jpg)
+![sample-image](/Users/madelineadonley/bootcamp/mado-portfolio-hw-2/assets/images/webpage-2.jpg)
 
 --
 
