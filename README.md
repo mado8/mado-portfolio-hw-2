@@ -10,8 +10,8 @@ This repository has a deployed application used to display a professional portfo
 
 ## Sample Image
 
-![sample-image](<img width="1428" alt="webpage-1" src="https://user-images.githubusercontent.com/88465484/132628193-73c0928e-2ba8-4f9e-8c93-aff766165432.png">)
-![sample-image](<img width="1432" alt="webpage-2" src="https://user-images.githubusercontent.com/88465484/132628271-f20271cb-de50-4f0a-b2d8-11bf2d231881.png">)
+![sample-image](https://user-images.githubusercontent.com/88465484/132628193-73c0928e-2ba8-4f9e-8c93-aff766165432.png)
+![sample-image](https://user-images.githubusercontent.com/88465484/132628271-f20271cb-de50-4f0a-b2d8-11bf2d231881.png)
 
 --
 
