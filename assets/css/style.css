@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
 /*set styles used throughout the page*/
 :root {
-    --light-blue: rgb(174, 224, 224);
+    --light-blue: rgb(158, 229, 241);
     --medium-blue: rgb(63, 72, 107);
     --dark-gray: rgb(58, 61, 68);
     --open-sans: 'Open Sans', sans-serif;
@@ -39,12 +39,10 @@ body {
     color: var(--dark-gray);
     background-color: var(--light-blue);
 }
-.container {
-    padding-right: 100px;
-}
 /* change navbar background color*/
 #navbar {
     background-color: var(--dark-gray);
+    padding-right: 100px;
 }
 /*change positioning of navbar content in header, color of text, and set list style to have no bullet points*/
 #navbar ul{
@@ -52,7 +50,7 @@ body {
     color: var(--light-blue);
     
 }
-/**/
+/*makes list diplay inline and changes spacing between them, as well as adds an "underline" using border properties*/
 #navbar li{
     display: inline-block;
     padding-left: 10px;
@@ -61,22 +59,17 @@ body {
     margin-left: 5px;
     border-bottom: var(--light-blue) solid 4px;
 }
-/**/
+/*changes navbar color when hovered over*/
 #navbar a:hover {
     color: rgb(63, 110, 212)
 }
-/**/
+/*chanegs font size of navbar items, color, and sets text-decoration to have no underline*/
 #navbar a {
     font-size: 115%;
     text-decoration: none;
     color: var(--light-blue);
-    
 }
-/**/
-#image {
-    
-}
-/**/
+/*changes subtitle text under header to fit content and positions it to the bottom right of the image*/
 #image p {
     padding: 3px;
     padding-left: 12px;
@@ -87,12 +80,127 @@ body {
     background-color: var(--light-blue);
     width: fit-content;
     position: absolute;
-    top: 160px;
+    top: 220px;
     right: 65px;
+}
+/**/
+.side-headers {
+    font-size: 300%;
+    position: absolute;
+    text-align: end;
+}
+/*makes aside text display block*/
+.side-headers a {
+    display: block;
+}
+/*changes position of aside text*/
+#am-header{
+    top: -40px;
+    left: -180px;
+}
+#w-header {
+    top: -40px;
+    left:-160px;
+}
+#c-header {
+    top: -80px;
+    left: -230px;
+}
+/**/
+.main-container {
+    padding: 25px;
+    padding-top: 0px;
+    margin: 30px;
+    margin-left: 310px;
+    border-left: solid 5px var(--medium-blue);
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+/**/
+.main-container div{
+    border: 5px solid var(--light-blue);
+    background-color: var(--light-blue);
+    margin: 10px;
+}
+/**/
+.box  {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-left: 0px;
+    padding-top: 150px;
+    opacity: 70%;
+}
+/*makes image more clear when hovered over*/ 
+#work div:hover {
+    opacity: 100%;
+}
+
+/*sets background image and size of image*/
+#box-1 {
+    padding-right: 97%;
+    padding-top: 500px;
+    background-image: url(../images/surf.jpeg);
+}
+#box-2 {
+    padding-right: 47%;
+    background-image: url(../images/led.jpeg);
+}
+#box-3 {
+    padding-right: 47%;
+    background-image: url(../images/calculator.jpeg);
+}
+#box-4 {
+    padding-right: 47%;
+    background-image: url(../images/pastel.jpg);
+}
+#box-5 {
+    padding-right: 47%;
+    background-image: url(../images/run-buddy.jpeg);
+}
+
+.text {
+    float: left;
+    position: absolute;
+    margin: 0px;
+    padding:10px;
+    color: var(--dark-gray);
+    background-color: var(--light-blue);
+}
+
+#contact-me ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+#contact-me li {
+    display: inline;
+    
+}
+
+#contact-me ul a {
+    margin: 50px;
+    line-height: 20px;
+    text-decoration: none;
+    color: var(--medium-blue);
+    border-bottom: var(--medium-blue) solid 3px;
 }
 /*making webpage responsive by changing variables to make the elements fit better under certain widths*/
 @media only screen and (max-width:750px) {
     #page-header {
         display: block;
+    }
+}
+/*making webpage responsive by changing variables to make the elements fit better under certain widths*/
+@media only screen and (max-width:365px) {
+    #page-header h1{
+        font-size: 200%;
+    }
+    #navbar a {
+        font-size: 100%;
+    }
+    #image p {
+        display:none;
     }
 }
