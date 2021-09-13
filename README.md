@@ -1,4 +1,4 @@
-# mado-portfolio-hw-2 README
+# portfolio-hw-2 README
 
 --
 
