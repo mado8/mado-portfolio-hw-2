@@ -17,13 +17,13 @@ This repository has a deployed application used to display a professional portfo
 
 ## Link to Webpage
 
-https://mado8.github.io/mado-portfolio-hw-2/
+https://mado8.github.io/portfolio-hw-2/
 
 --
 
 ## Link to GitHub repository
 
-https://github.com/mado8/mado-portfolio-hw-2
+https://github.com/mado8/portfolio-hw-2
 
 --
 
