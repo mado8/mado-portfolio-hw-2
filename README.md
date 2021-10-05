@@ -13,11 +13,15 @@ This repository has a deployed application used to display a professional portfo
 ## Links
 
 https://mado8.github.io/portfolio-hw-2/
+
 https://github.com/mado8/portfolio-hw-2
 
 ## Contact
 
 Madeline Donley 
+
 email: madelineadonley@gmail.com
+
 phone: 720-614-1655
+
 
