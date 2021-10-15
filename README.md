@@ -1,4 +1,4 @@
-# portfolio-hw-2
+# portfolio
 
 Creating a web application to showcase a portfolio.
 
