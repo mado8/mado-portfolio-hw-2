@@ -1,4 +1,4 @@
-# portfolio-hw-3
+# portfolio-draft
 
 Creating a web application to showcase a portfolio.
 
@@ -12,9 +12,9 @@ This repository has a deployed application used to display a professional portfo
 
 ## Links
 
-https://mado8.github.io/portfolio-hw-2/
+https://mado8.github.io/portfolio-draft/
 
-https://github.com/mado8/portfolio-hw-2
+https://github.com/mado8/portfolio-draft
 
 ## Contact
 
